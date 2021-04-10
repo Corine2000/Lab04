@@ -12,7 +12,7 @@ public class ConnectDB {
 	public static Connection getConnection() {
 
 		try {
-				Connection connection = DriverManager.getConnection(jdbcUrl);
+				Connection connection = DriverManager.getConnection(jdbcUrl); //oggetto statico del driver Manager
 				return connection;
 
 		} catch (SQLException e) {
